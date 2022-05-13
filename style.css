@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #202124;
+}
+.card-body {
+  font-family: "Product Sans", Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  background-color: #202124;
+  text-decoration: none;
+  position: relative;
+  bottom: 12px;
+  padding: 0;
+  left: 54px;
+}
+.card {
+  background-color: #202124;
+  box-shadow: 0 0 11px black;
+  border: 12px black;
+  height: 80px;
+}
+.fa-bars {
+  position: relative;
+  top: 12px;
+  left: 27px;
+  color: white;
+  width: 25px;
+}
+.content {
+  position: center;
+}
+.fa-bars.fa-bars :hover {
+  background-color: rgb(255, 0, 0);
+}
+.fa-solid {
+  color: white;
+}
+ul {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  height: 100px;
+  color: #dadce0;
+  text-align: center;
+  padding: 16px;
+}
+
+li {
+  text-decoration: none;
+  display: block;
+}
+
+.sidebar {
+  font-size: 16px;
+  font-weight: 600;
+}
+.pt {
+  position: relative;
+  left: 22px;
+  top: 25px;
+  color: white;
+}
+
+.big {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.small {
+  position: absolute;
+  text-align: center;
+  top: 319px;
+  color: white;
+  left: 842px;
+}
+
+.xazi {
+  color: white;
+  width: 767px;
+  top: -85px;
+  position: relative;
+  left: 203px;
+}
+
+.itm {
+  position: relative;
+  text-align: center;
+  top: 150px;
+}
+
+li :hover {
+  background-color: #5f6368;
+  border-radius: 10px;
+  display: block;
+}
+a:visited {
+  color: white;
+}
